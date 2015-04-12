@@ -14,5 +14,8 @@ tbody tr td:nth-child(2) {
 tbody tr td:nth-child(4) {
     color: blue;
 }
+dt:hover + dd{
+    background-color:Purple;
+}
 
     
