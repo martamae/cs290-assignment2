@@ -29,3 +29,8 @@ div.inner-content{
     width: 75%;
     background-color: blue;
 }
+img {
+    float: left;
+    width:100px;
+    length:125pc;
+}
