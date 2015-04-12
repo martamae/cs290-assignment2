@@ -1,0 +1,18 @@
+tbody {
+    background-color: #00FA9A;
+}
+tr:nth-child(even){
+    background-color: #6495ED;
+}
+tbody th{
+   font-style:italic;
+   font-weight:normal;
+}
+tbody tr td:nth-child(2) {
+    color: red;
+}
+tbody tr td:nth-child(4) {
+    color: blue;
+}
+
+    
