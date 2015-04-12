@@ -1,7 +1,7 @@
 tbody {
     background-color: #00FA9A;
 }
-tr:nth-child(even){
+tbody tr:nth-child(even){
     background-color: #6495ED;
 }
 tbody th{
