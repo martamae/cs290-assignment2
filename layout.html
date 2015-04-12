@@ -11,6 +11,9 @@
             <thead> 
                 <th> <th>1 <th>2 <th>3 <th>4 <th>5 
             </thead>
+            <tfoot>
+                <tr> <td colspan=2>Foot 1 <td colspan=4>Foot 2
+            </tfoot>
             <tbody>
                 <tr> <th>1 <td>1 <td>2 <td>3 <td>4 <td>5
                 <tr> <th>2 <td>2 <td>4 <td>6 <td>8 <td>10
@@ -18,9 +21,6 @@
                 <tr> <th>4 <td>4 <td>8 <td>12 <td>16 <td>20
                 <tr> <th>5 <td>5 <td>10 <td>15 <td>20 <td>25
             </tbody>
-            <tfoot>
-                <tr> <td colspan=2>Foot 1 <td colspan=4>Foot 2
-            </tfoot>
         </table>
 
         <dl>
@@ -31,5 +31,22 @@
             <dt>Stir fry</dt>
             <dd>Asian food</dd>
         </dl>
+
+        <div class="outer-content">
+            <div class ="inner-content">Text in middle</div>
+        </div>
+
+        <form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="get">
+            <input type="text" name="text_input">
+            <input type="number" name="numerical_input">
+            <input type="password" name="password_input">
+            <input type="radio" name="candy">
+                <option value="1">Snickers</option>
+                <option value="2">Skittles</option>
+                <option value="3">Mentos</option>
+        </form>
+
+        <form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="post">
+        </form>
     </body>
 </html>
